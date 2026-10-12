@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "datastructure-algorithm"
+version = "0.1.0"
+description = ""
+authors = ["clipnpaper <khj000630@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
